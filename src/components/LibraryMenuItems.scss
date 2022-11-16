@@ -1,0 +1,26 @@
+@import "open-color/open-color";
+
+.excalidraw {
+  .library-menu-items-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &__items {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .separator {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      font-size: 0.9rem;
+      margin: 0.6em 0.2em;
+      color: var(--text-primary-color);
+    }
+  }
+}
